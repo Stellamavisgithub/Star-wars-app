@@ -1,0 +1,159 @@
+*body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../images/BACK.jpeg"); filter: blur(34);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*
+h1{
+  text-align: center;
+  z-index: 4;
+  color: rgb(152, 16, 16);
+  font-size: 100px ;
+  
+}
+.button{
+  border: 1px solid rgb(206, 9, 9);
+  text-align: center;
+  font-size: medium;
+}
+
+#targetElement{
+  display: none;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid blue;
+}
+                               
+
+#myCharacterLis{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px;
+  margin-left: 50px;
+  
+
+}
+
+.visibility{
+  visibility: visible;
+}
+
+.frontButton {
+
+  border-radius: 10px;
+  padding: 0.6rem 1.5rem;
+  margin: 4rem 2rem 20rem 2rem;
+  font-size: 1.5rem;
+  border: 1px solid white ;
+  color: white;
+  background-color:  rgb(5, 5, 5);
+   word-wrap: normal;
+}
+.btn2{
+  display: none;
+}
+
+#btn1{
+  display: none;
+  margin-bottom: 1rem;
+} */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.knight {
+  width: 300px;
+  margin: 1rem;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.knight img{
+  width: 100%;
+  object-fit: cover;
+  height: 85%;  
+  border: 6px solid rgb(206, 9, 9);
+  
+}
+
+
+/* *,
+body,
+html{
+  padding: 0;
+}
+
+header{
+  background-color:rgb(158, 158, 223);
+  height: 8rem;
+  font-size: 2.5rem;
+  text-align:center;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom:2rem ;
+}
+*/
+
+/* body{
+  background-image: url(./Images/poster2.jpeg);
+}
+
+.star{
+  color: bisque;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: -0.5rem;
+}
+
+.pictures{
+  display: flex;
+  width: 90px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px;
+  margin-left: 50px;
+  
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border-color:maroon;
+  border-style:groove;
+  margin: 35px;
+  
+  
+}
+hover{
+  cursor: pointer;
+  
+}
+
+
+
+.pictures img{
+width: 50px;
+height: 200px;
+cursor: pointer;
+margin-top: 20px;
+border-radius: 10px;
+box-shadow: 0 32px 75px rgba(68, 77, 135, 5);
+
+}
